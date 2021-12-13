@@ -1,0 +1,163 @@
+#### Git merge files
+*.orig
+
+#### Git merge files
+
+#### Common temporary files
+*.bak
+*.log
+*.tmp
+*.temp
+
+#### Common temporary files
+
+#### VIM Files
+# Swap Files
+.*.swp
+.*.swo
+
+# Vim Backup Files
+~*
+
+#### VIM Files
+
+#### SublimeText project files
+*.sublime-workspace
+
+#### SublimeText project files
+
+#### Visaul Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+#### Visual Studio Code
+
+#### OS Junk files
+# Windows
+[Tt]humbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# MS Office temp files
+~$*
+*.xlk
+*.~vsdx
+
+# OSX
+*.DS_Store
+
+# Linux
+*~
+.Trash-*
+.directory
+
+#### OS Junk files
+
+#### Node
+node_modules
+
+#### Node
+
+#### Visual Studio IDE
+# Visual Studio 2015 directory
+.vs/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# SQL Server Project cache file
+*.dbmdl
+
+# Chutzpah Test files
+_Chutzpah*
+
+# Web projects & Web Workbench
+.sass-cache/
+
+# NuGet Packages
+*.nupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/repositories.config
+!**/[Pp]ackages/build/
+
+# Visual Studio cache files
+# files ending in .cache can be ignored
+*.[Cc]ache
+# but keep track of directories ending in .cache
+!*.[Cc]ache/
+
+# Ignore WCF Datasource files
+*.[Dd]atasource
+
+# Resharper
+_ReSharper.*/
+_ReSharperPlatform*/
+
+# NDepend
+NDependOut/
+
+# Ignore GhostDoc files
+*.GhostDoc.xml
+
+#### Visual Studio IDE
+
+#### JetBrains IDE's
+# User-specific files
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+
+# Sensitive or high-curn files
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+
+# Gradle
+.idea/gradle.xml
+.idea/libraries
+
+# Mongo Explorer plugin
+.idea/mongoSettings.xml
+
+# File-based project format
+*.iws
+*.sln.iml
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# IntelliJ
+/out/
+
+#### JetBrains IDE's
+
+#### Project Specific Settings
+
+#### Project Specific Settings
