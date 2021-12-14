@@ -4,7 +4,7 @@ using System.IO;
 using EnvDTE;
 using EnvDTE80;
 
-namespace OpenInGVim
+namespace OpenInNeovim
 {
     internal static class ProjectHelpers
     {

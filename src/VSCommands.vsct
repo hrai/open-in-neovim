@@ -11,13 +11,13 @@
                 <Parent guid="guidSHLMainMenu" id="IDG_VS_CTXT_FOLDER_EXPLORE" />
                 <Icon guid="guidImages" id="VimIcon" />
                 <Strings>
-                    <ButtonText>Open in GVim</ButtonText>
+                    <ButtonText>Open in Neovim</ButtonText>
                 </Strings>
             </Button>
             <Button guid="guidContextMenuOpenInVimCmdSet" priority="0x0500" id="ContextMenuOpenInVim" type="Button">
                 <Icon guid="guidImages" id="VimIcon" />
                 <Strings>
-                    <ButtonText>Open in GVim</ButtonText>
+                    <ButtonText>Open in Neovim</ButtonText>
                 </Strings>
             </Button>
         </Buttons>

@@ -1,6 +1,6 @@
 using System;
 
-namespace OpenInGVim
+namespace OpenInNeovim
 {
     internal sealed partial class PackageGuids
     {

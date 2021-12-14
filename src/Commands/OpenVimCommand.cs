@@ -7,7 +7,7 @@ using EnvDTE;
 using EnvDTE80;
 using Microsoft.VisualStudio.Shell;
 
-namespace OpenInGVim
+namespace OpenInNeovim
 {
     internal sealed class OpenVimCommand
     {

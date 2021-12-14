@@ -8,7 +8,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Root Items", "Root Items", 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenInGVim", "src\OpenInGVim.csproj", "{5E79FFAA-27D1-45A5-8A8B-D8331E0F9C3D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenInNeovim", "src\OpenInNeovim.csproj", "{5E79FFAA-27D1-45A5-8A8B-D8331E0F9C3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
