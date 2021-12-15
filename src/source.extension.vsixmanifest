@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="a69e33af-f9d6-4fce-b3b8-5e973a040a2b" Version="0.23" Language="en-US" Publisher="Hangjit Rai" />
+        <Identity Id="7eb06c9e-e319-44a5-bc06-c3e6b573c089" Version="0.24" Language="en-US" Publisher="HRai" />
         <DisplayName>Open In Neovim</DisplayName>
         <Description xml:space="preserve">Adds a menu command that lets you open any solution, project, folder and/or file in Neovim.</Description>
         <MoreInfo>https://github.com/hrai/open-in-neovim</MoreInfo>
@@ -11,25 +11,16 @@
         <Tags>vim, gvim, neovim, nvim, nvim-qt</Tags>
     </Metadata>
     <Installation>
-   <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0,17.0)">
-      <ProductArchitecture>x86</ProductArchitecture>
-   </InstallationTarget>
-        <InstallationTarget Version="[15.0,17.0)" Id="Microsoft.VisualStudio.Pro" >
-      <ProductArchitecture>x86</ProductArchitecture>
-   </InstallationTarget>
-        <InstallationTarget Version="[15.0,17.0)" Id="Microsoft.VisualStudio.Enterprise" >
-      <ProductArchitecture>x86</ProductArchitecture>
-   </InstallationTarget>
 
-   <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,18.0)">
-      <ProductArchitecture>amd64</ProductArchitecture>
-   </InstallationTarget>
-   <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[17.0,18.0)">
-      <ProductArchitecture>amd64</ProductArchitecture>
-   </InstallationTarget>
-   <InstallationTarget Id="Microsoft.VisualStudio.Enterprise" Version="[17.0,18.0)">
-      <ProductArchitecture>amd64</ProductArchitecture>
-   </InstallationTarget>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,18.0)">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[17.0,18.0)">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Id="Microsoft.VisualStudio.Enterprise" Version="[17.0,18.0)">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
     </Installation>
     <Prerequisites>
         <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,17.0)" DisplayName="Visual Studio core editor" />
