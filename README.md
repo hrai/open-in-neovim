@@ -2,7 +2,7 @@
 
 A Visual Studio extension that adds a menu command that lets you open a solution, project, folder or file in Vim.
 
-Download the extension at the [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=HangjitRai.openingvimhrai).
+Download the extension at the [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=HRai.openinneovim).
 
 ---
 
