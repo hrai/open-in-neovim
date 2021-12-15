@@ -8,7 +8,7 @@
         <License>Resources\LICENSE</License>
         <Icon>Resources\Icon.png</Icon>
         <PreviewImage>Resources\Icon.png</PreviewImage>
-        <Tags>vim, gvim, neovim</Tags>
+        <Tags>vim, gvim, neovim, nvim, nvim-qt</Tags>
     </Metadata>
     <Installation>
    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0,17.0)">

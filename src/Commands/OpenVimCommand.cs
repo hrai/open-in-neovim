@@ -135,7 +135,7 @@ namespace OpenInNeovim
             if (File.Exists(_options.PathToExe))
                 return;
 
-            var box = MessageBox.Show("I can't find Vim (gvim.exe). Would you like to help me find it?", Vsix.Name, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            var box = MessageBox.Show("I can't find Neovim (nvim-qt.exe). Would you like to help me find it?", Vsix.Name, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             if (box == DialogResult.No)
                 return;
@@ -143,7 +143,7 @@ namespace OpenInNeovim
             var dialog = new OpenFileDialog
             {
                 DefaultExt = ".exe",
-                FileName = "gvim.exe",
+                FileName = "nvim-qt.exe",
                 InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles),
                 CheckFileExists = true
             };

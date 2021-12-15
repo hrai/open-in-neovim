@@ -1,4 +1,4 @@
-# Open In GVim
+# Open In Neovim
 
 A Visual Studio extension that adds a menu command that lets you open a solution, project,
 folder or file in Vim.
@@ -14,20 +14,20 @@ I do use Visual Studio Code from time-to-time but I much prefer Vim. This extens
 
 ## Prerequisite
 
-In order to use this extension, you must have Visual Studio 2017+ as well as Gvim installed.
+In order to use this extension, you must have Visual Studio 2017+ as well as Neovim installed.
 
 ## Solution Explorer
 
 You can open any solution, project, folder, or file in Vim by simply right-clicking
-it in Solution Explorer and selecting **Open In GVim**.
+it in Solution Explorer and selecting **Open In Neovim**.
 
 ![Context menu](art/context-menu.png)
 
-## Path to Gvim.exe
+## Path to nvim-qt.exe
 
-If you installed Vim to a non-default location, a prompt will ask for the path to _Gvim.exe_.
+If you installed Vim to a non-default location, a prompt will ask for the path to _nvim-qt.exe_.
 
-You can always change the location in **Tools -> Options -> VsVim -> Open In GVim**.
+You can always change the location in **Tools -> Options -> VsVim -> Open In Neovim**.
 
 ![Options](art/options.png)
 

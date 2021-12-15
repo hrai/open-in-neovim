@@ -7,18 +7,18 @@ namespace OpenInNeovim
 {
     public class Options : DialogPage
     {
-        const string DefaultPathToExe = @"C:\Program Files (x86)\vim\vim81\gvim.exe";
-        const string DefaultArguments = @"--remote-tab-silent";
+        const string DefaultPathToExe = @"C:\Program Files (x86)\neovim\bin\nvim-qt.exe";
+        const string DefaultArguments = @"";
 
         [Category("General")]
         [DisplayName("Command line arguments")]
-        [Description("Command line arguments to pass to gvim.exe")]
+        [Description("Command line arguments to pass to nvim-qt.exe")]
         [DefaultValue(DefaultArguments)]
         public string CommandLineArguments { get; set; } = DefaultArguments;
 
         [Category("General")]
-        [DisplayName("Path to gvim.exe")]
-        [Description("Specify the path to gvim.exe.")]
+        [DisplayName("Path to nvim-qt.exe")]
+        [Description("Specify the path to nvim-qt.exe.")]
         [DefaultValue(DefaultPathToExe)]
         public string PathToExe { get; set; } = DefaultPathToExe;
 
