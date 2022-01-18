@@ -6,7 +6,7 @@ Download the extension from the [VS Marketplace](https://marketplace.visualstudi
 
 ## Prerequisite
 
-In order to use this extension, you must have Visual Studio 2017+ as well as Neovim installed.
+In order to use this extension, you must have Visual Studio 2022+ as well as Neovim installed.
 
 ## Solution Explorer
 
